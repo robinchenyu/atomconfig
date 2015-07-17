@@ -1,0 +1,23 @@
+"*":
+  "exception-reporting":
+    userId: "62296862-c11d-052d-bc77-868ed8ddc1fa"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+    disabledPackages: [
+      "linter-govet"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "vim-mode": {}
+  "django-templates":
+    defaultToDjangoTemplatesForFilePathsContaining: [
+      "oa2"
+    ]

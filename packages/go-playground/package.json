@@ -1,0 +1,41 @@
+{
+  "name": "go-playground",
+  "main": "./lib/go-playground",
+  "version": "0.0.2",
+  "description": "Go run active file",
+  "activationEvents": [
+    "go-playground:execute"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tachiba/atom-go-playground"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# go-playground package\n\n![screenshot](https://cloud.githubusercontent.com/assets/529660/3278086/f28ce7c0-f3a4-11e3-9d25-8bfa5c304020.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tachiba/atom-go-playground/issues"
+  },
+  "homepage": "https://github.com/tachiba/atom-go-playground",
+  "_id": "go-playground@0.0.2",
+  "_shasum": "3be596e6b86753fe1a8215ffba19d3d0c1e661d3",
+  "_resolved": "file:../d-115617-3350-1vcvuci/package.tgz",
+  "_from": "../d-115617-3350-1vcvuci/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/go-playground.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

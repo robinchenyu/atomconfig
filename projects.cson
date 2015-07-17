@@ -1,0 +1,15 @@
+oa2:
+  title: "oa2"
+  paths: [
+    "/home/robin/Projects/oa2"
+  ]
+blogs:
+  title: "blogs"
+  paths: [
+    "/home/robin/blogs"
+  ]
+".atom":
+  title: ".atom"
+  paths: [
+    "/home/robin/.atom"
+  ]

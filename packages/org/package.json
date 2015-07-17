@@ -1,0 +1,44 @@
+{
+  "name": "org",
+  "main": "./lib/org",
+  "version": "0.2.5",
+  "description": "Very early stage of Org-Mode for atom.io",
+  "activationEvents": [
+    "org:toggle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolfgang/org"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# Orgmode For Atom.io\n\nThis is an attempt to bring org-mode to the atom editor.\n\nTo learn more about org-mode, go here: http://orgmode.org\n\nThe package is activated by pressing ctrl-alt o. After that, every file with an .org extension will be in \"org-mode\".\n\nYou probably don't want to use this yet, but you are very welcome to contribute.\n\nMy first goal is implement [structure editing](http://orgmode.org/manual/Structure-editing.html).\n\n## Functionality so far\n\nFiles with .org extension are in \"org-mode\", providing the following:\n* Insert empty headline with Cmd-Enter\n* Insert TODO headline with Shift-Cmd-Enter\n* Demote (shift right) headline with Alt-Right\n* Promote (shit left) headline with Alt-Left\n* Insert break on the fly when typing a '*'\n* TODO keyword is colored in red\n* Rudimentary state cycling TODO -> NEXT -> DONE with Shift-Right/Shift-Left \n## Roadmap\n\n* Structure editing\n* Custom TODO keywords\n* Basic Agenda views\n* Customization\n* Capturing\n* Advanced agenda views\n* Whatever else has been added to the original in 11 years of development :)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/wolfgang/org/issues"
+  },
+  "homepage": "https://github.com/wolfgang/org",
+  "_id": "org@0.2.5",
+  "_shasum": "29484ee4a9ceb41fcf138c23542c6ecda589f55e",
+  "_resolved": "file:../d-115617-5537-89fmj6/package.tgz",
+  "_from": "../d-115617-5537-89fmj6/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/org-input.coffee",
+        "lib/org-typing.coffee",
+        "lib/org-view.coffee",
+        "lib/org.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

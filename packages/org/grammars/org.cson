@@ -1,0 +1,20 @@
+
+'fileTypes': ['org']
+'scopeName': 'text.org'
+'name': 'ORG'
+'patterns': [
+  {
+    'match': '(?<!\\w)@?TODO\\b'
+    'name': 'org-todo'
+  }
+{
+  'match': '(?<!\\w)@?NEXT\\b'
+  'name': 'org-next'
+}
+
+{
+  'match': '(?<!\\w)@?DONE\\b'
+  'name': 'org-done'
+}
+
+]
